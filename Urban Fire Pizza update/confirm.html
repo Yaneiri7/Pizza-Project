@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Confirmation - Urban Fire Pizza</title>
+        <meta name="keywords" content="" />
+		<meta name="description" content="" />
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+		<!-- Google Fonts -->
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+		<!-- Essential CSS -->
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
+        <link href="js/colorbox/colorbox.css"  rel="stylesheet" type="text/css">
+		<!-- Custom CSS -->
+        <link href="css/pizzatemplate_style.css"  rel="stylesheet" type="text/css">
+		<link href="css/ufp_product_style.css"  rel="stylesheet" type="text/css">
+		<link href="css/product-quantity.css"  rel="stylesheet" type="text/css">
+		<!-- Date Picker -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.js"></script>
+    	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/jquery-ui.min.js"></script>
+    	<link rel="stylesheet" type="text/css" media="screen" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/themes/base/jquery-ui.css">
+		<script src="js/date-picker.js"  type="text/javascript"></script>
+    </head>
+    
+    <body>
+        <div class="pizzatemplate-top-menu">
+            <div class="container">
+                <!-- Static navbar -->
+                <div class="navbar navbar-default" role="navigation">
+                    <div class="container">
+                        <div class="navbar-header">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                </button>
+                                <a href="index.html" class="navbar-brand" id="navbar-brand"><img src="logo/urban-fire-pizza-logo.gif" alt="Urban Fire Pizza" title="Urban Fire Pizza" /></a>
+                        </div>
+                        <div class="navbar-collapse collapse" id="pizzatemplate-nav-bar">
+                            <ul class="nav navbar-nav navbar-right" style="margin-top: 40px;">
+                                <li><a href="index.html">HOME</a></li>
+                                <li class="active"><a href="order.html">ORDER</a></li>
+                                <li><a href="index.html #pizzatemplate-contact">CONTACT</a></li>
+                                <li><a href="login.html">LOGIN</a></li>
+	                            <li><a href="signup.html">SIGN UP</a></li>
+                            </ul>
+                        </div><!--/.nav-collapse -->
+                    </div><!--/.container-fluid -->
+                </div><!--/.navbar -->
+            </div> <!-- /container -->
+        </div>
+        
+        <div>
+            <!-- Carousel -->
+            <!--<div id="pizzatemplate-carousel" class="carousel slide" data-ride="carousel">
+            </div>-->
+        </div>
+		
+<!-- Pizza Payment -->
+        <div id="pizzatemplate-confirm">
+            <div class="container">
+                    <div class="head_login-signup">
+                        <div class="text-center"><span class="ufp-confirm-header">Your Pizza is on the Way!</span>
+                        </div>
+                        <div class="text-center"><span class="ufp-confirm-subheader">Estimated Arrival:</span>
+							<div class="ufp-confirm-subheader" id="estimateTime"></div>
+							<div class="ufp-confirm-subheader countdown" style="color: #a6a6a6"></div>
+                        </div>
+                    </div>
+
+
+            </div><!-- /.container -->
+        </div><!-- /#pizzatemplate-confirm -->
+
+
+        <div class="pizzatemplate-footer" >
+            <div class="container">
+                <div class="row">
+                    <div class="text-center">
+
+                        <div class="footer_container">
+                            <ul class="list-inline">
+                                <li>
+                                    <a href="#">
+                                        <span class="social-icon-fb"></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span class="social-icon-rss"></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span class="social-icon-twitter"></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span class="social-icon-linkedin"></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span class="social-icon-dribbble"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="height30"></div>
+                            <a class="btn btn-lg btn-orange" href="#navbar-brand" role="button" id="btn-back-to-top">Back To Top</a>
+                            <div class="height30"></div>
+                        </div>
+                        <div class="footer_bottom_content">
+                   			<span id="footer-line">Copyright © 2023 <a href="#">Urban Fire Pizza</a>
+                            </span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--<script src="js/jquery.min.js" type="text/javascript"></script>
+        <script src="js/bootstrap.min.js"  type="text/javascript"></script>
+        <script src="js/stickUp.min.js"  type="text/javascript"></script>-->
+        <script src="js/colorbox/jquery.colorbox-min.js"  type="text/javascript"></script>
+        <script src="js/pizzatemplate_script.js"  type="text/javascript"></script>
+        <script src="js/upc_products_script.js"  type="text/javascript"></script>
+		<script>
+		// Countdown Timer
+        var timer2 = "30:00";
+        var interval = setInterval(function() {
+          var timer = timer2.split(':');
+          //by parsing integer, I avoid all extra string processing
+          var minutes = parseInt(timer[0], 10);
+          var seconds = parseInt(timer[1], 10);
+          --seconds;
+          minutes = (seconds < 0) ? --minutes : minutes;
+          if (minutes < 0) clearInterval(interval);
+          seconds = (seconds < 0) ? 59 : seconds;
+          seconds = (seconds < 10) ? '0' + seconds : seconds;
+          //minutes = (minutes < 10) ?  minutes : minutes;
+          $('.countdown').html(minutes + ':' + seconds);
+          timer2 = minutes + ':' + seconds;
+        }, 1000);
+        </script>
+
+		<script>
+		// Current time plus 30 minutes
+        const currDate = new Date();
+        currDate.setMinutes(currDate.getMinutes() + 30);
+        let hoursMin = currDate.toLocaleTimeString('en-US', {
+          hour: '2-digit',
+          minute: '2-digit',
+        });
+        document.getElementById("estimateTime").innerHTML = hoursMin;
+		</script>
+
+        
+    </body>
+</html>
